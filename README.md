@@ -5,14 +5,14 @@ This repository contains an implementation of matrix multiplication using OpenCL
 ## Repository Structure
 
 ├── OpenCL
-│   └── Kernel.cl                  # OpenCL kernel file
+│ └── Kernel.cl # OpenCL kernel file
 ├── goldenStandard
-│   ├── multiplicationGoldenStandard.cpp   # C++ golden measure program
-│   └── goldenMeasureExecutable             # Compiled executable of the golden measure
-├── performance_report.pdf           # Performance results report
-├── platforms.cpp                    # Program to check the platform number
-├── multiplication.cpp               # OpenCL host program
-└── README.md                        # This README file
+│ ├── multiplicationGoldenStandard.cpp # C++ golden measure program
+│ └── goldenMeasureExecutable # Compiled executable of the golden measure
+├── performance_report.pdf # Performance results report
+├── platforms.cpp # Program to check the platform number
+├── multiplication.cpp # OpenCL host program
+└── README.md # This README file
 
 ## Getting Started
 
@@ -91,7 +91,7 @@ If you have any suggestions or improvements, feel free to submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
